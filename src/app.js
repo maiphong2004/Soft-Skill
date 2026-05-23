@@ -1,4 +1,4 @@
-`import React, { useEffect, useMemo, useState } from "https://esm.sh/react@18.3.1";
+import React, { useEffect, useMemo, useState } from "https://esm.sh/react@18.3.1";
 import { createRoot } from "https://esm.sh/react-dom@18.3.1/client";
 
 const h = React.createElement;
