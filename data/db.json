@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "admin-local-001",
+      "name": "Quản trị viên",
+      "email": "admin@softskill.local",
+      "studentCode": "ADMIN001",
+      "role": "admin",
+      "passwordSalt": "84aa54c86c21366626931a2e8e3acdad",
+      "passwordHash": "481841065980005c1e251fcb17d703304ab17ed3c9fff350bcd466144fe13e25b677a0df11a27d5289e0f083e22030b204f800b2689cdc73ca037cf6dc665a66",
+      "major": "Quản trị hệ thống",
+      "year": "Admin",
+      "attendance": null,
+      "trend": null,
+      "scores": null,
+      "evidence": [],
+      "createdAt": "2026-05-23T00:00:00.000Z",
+      "updatedAt": "2026-05-23T15:23:14.646Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "d6d670fd78aa7409fee06a6e867fdf68d9836ae9b2df71d2a183c85e75823c24",
+      "userId": "admin-local-001",
+      "createdAt": "2026-05-23T15:25:33.870Z"
+    }
+  ],
+  "passwordResets": []
+}
