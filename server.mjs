@@ -436,6 +436,6 @@ createServer(async (req, res) => {
     res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
     res.end("Không tìm thấy tài nguyên.");
   }
-}).listen(port, "127.0.0.1", () => {
-  console.log(`Dashboard đang chạy tại http://127.0.0.1:${port}`);
+}).listen(port, "0.0.0.0", () => {
+  console.log(`Dashboard đang chạy tại http://0.0.0.0:${port}`);
 });
