@@ -411,7 +411,8 @@ async function handleApi(req, res, url) {
     }
 
     return sendJson(res, 404, { message: "Không tìm thấy API." });
-  } catch {
+  } catch (error) {
+    console.error("[api-error]", error);
     return sendJson(res, 500, { message: "Lỗi server. Vui lòng thử lại." });
   }
 }

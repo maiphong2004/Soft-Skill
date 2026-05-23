@@ -672,7 +672,7 @@ function AuthPage({ onLogin, onRegister, onRequestPasswordReset, onResetPassword
                   : "Đăng nhập"
         )
       ),
-      h("p", { className: "authNote" }, "Tài khoản được lưu qua backend local trong file data/db.json. Frontend chỉ giữ token phiên đăng nhập.")
+      h("p", { className: "authNote" }, "Tài khoản được lưu qua backend. Frontend chỉ giữ token phiên đăng nhập.")
     )
   );
 }
